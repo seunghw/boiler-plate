@@ -7,7 +7,8 @@ const userSchema = mongoose.Schema({
   },
   email: {
     type: String,
-    trim: true, // 스페이바 없애줌
+    trim: true,
+    unique: 1,
   },
   password: {
     type: String,
@@ -18,7 +19,6 @@ const userSchema = mongoose.Schema({
     maxlength: 50,
   },
   role: {
-    // 관리자인지 유저인지 체크
     type: Number,
     default: 0,
   },
@@ -26,8 +26,8 @@ const userSchema = mongoose.Schema({
   token: {
     type: String,
   },
+  //토큰 유효기간
   tokenExp: {
-    //토큰의 유효기간
     type: Number,
   },
 });
