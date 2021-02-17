@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 5000;
+
 const bodyParser = require("body-parser"); // clientserver에서 분석해서 가져올 수 있게해주는것.
 
 const cookieParser = require("cookie-parser");
@@ -27,6 +27,10 @@ mongoose
 
 app.get("/", (req, res) => {
   res.send("안녕하세요!");
+});
+
+app.get("/api/hello", (req, res) => {
+  res.send("안녕하세염");
 });
 
 app.post("/api/users/register", (req, res) => {
@@ -103,6 +107,8 @@ app.get("/api/users/logout", auth, (req, res) => {
     });
   });
 });
+
+const port = 5000;
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
