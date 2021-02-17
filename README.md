@@ -7,34 +7,34 @@
 ### Frontend
 
 📦src
-┣ 📂components
-┃ ┗ 📂views -------- 페이지들
-┃ ┃ ┣ 📂Footer --------------- sections ------------------  
-┃ ┃ ┃ ┗ 📜Footer.js  
-┃ ┃ ┣ 📂LandingPage  
-┃ ┃ ┃ ┗ 📜LandingPage.js 이 안에는 해당 페이지에 관련된
-┃ ┃ ┣ 📂LoginPage
-┃ ┃ ┃ ┗ 📜LoginPage.js css 파일이나, component들을 넣는다.
-┃ ┃ ┣ 📂NavBar
-┃ ┃ ┃ ┗ 📜NavBar.js
-┃ ┃ ┗ 📂RegisterPage
-┃ ┃ ┃ ┗ 📜RegisterPage.js --------------------------------
-┣ 📂hoc
-┃ ┗ 📜auth.js
-┣ 📂utils
-┣ 📂_actions -------- Redux를 위한 폴더들
-┃ ┣ 📜types.js
-┃ ┗ 📜user_action.js
-┣ 📂_reducers
-┃ ┣ 📜index.js
-┃ ┗ 📜user_reducer.js
-┣ 📜App.js -------- Routing 관련 일을 처리한다.
-┣ 📜Config.js -------- 환경 변수같은 것들을 정하는 곳
-┣ 📜index.css
-┣ 📜index.js
-┣ 📜reportWebVitals.js
-┣ 📜setupProxy.js
-┗ 📜setupTests.js
+┣ 📂components<br>
+┃ ┗ 📂views -------- 페이지들<br>
+┃ ┃ ┣ 📂Footer --------------- sections ------------------ <br>
+┃ ┃ ┃ ┗ 📜Footer.js<br>  
+┃ ┃ ┣ 📂LandingPage<br>
+┃ ┃ ┃ ┗ 📜LandingPage.js 이 안에는 해당 페이지에 관련된<br>
+┃ ┃ ┣ 📂LoginPage<br>
+┃ ┃ ┃ ┗ 📜LoginPage.js css 파일이나, component들을 넣는다.<br>
+┃ ┃ ┣ 📂NavBar<br>
+┃ ┃ ┃ ┗ 📜NavBar.js<br>
+┃ ┃ ┗ 📂RegisterPage<br>
+┃ ┃ ┃ ┗ 📜RegisterPage.js --------------------------------<br>
+┣ 📂hoc<br>
+┃ ┗ 📜auth.js<br>
+┣ 📂utils<br>
+┣ 📂_actions -------- Redux를 위한 폴더들<br>
+┃ ┣ 📜types.js<br>
+┃ ┗ 📜user_action.js<br>
+┣ 📂_reducers<br>
+┃ ┣ 📜index.js<br>
+┃ ┗ 📜user_reducer.js<br>
+┣ 📜App.js -------- Routing 관련 일을 처리한다.<br>
+┣ 📜Config.js -------- 환경 변수같은 것들을 정하는 곳<br>
+┣ 📜index.css<br>
+┣ 📜index.js<br>
+┣ 📜reportWebVitals.js<br>
+┣ 📜setupProxy.js<br>
+┗ 📜setupTests.js<br>
 
 - npm npx
 - React Router Dom
@@ -49,16 +49,16 @@
 
 ### Backend
 
-📦server
-┣ 📂config
-┃ ┣ 📜dev.js
-┃ ┣ 📜key.js
-┃ ┗ 📜prod.js
-┣ 📂middleware
-┃ ┗ 📜auth.js
-┣ 📂models
-┃ ┗ 📜User.js
-┗ 📜index.js
+📦server<br>
+┣ 📂config<br>
+┃ ┣ 📜dev.js<br>
+┃ ┣ 📜key.js<br>
+┃ ┗ 📜prod.js<br>
+┣ 📂middleware<br>
+┃ ┗ 📜auth.js<br>
+┣ 📂models<br>
+┃ ┗ 📜User.js<br>
+┗ 📜index.js<br>
 
 - mongoDB
 - BodyParser & PostMan
