@@ -4,13 +4,13 @@
 
 - 기본적인 Node JS와 REACT JS 학습
 
-### Frontend
+## Frontend
 
 📦src
 ┣ 📂components<br>
 ┃ ┗ 📂views -------- 페이지들<br>
 ┃ ┃ ┣ 📂Footer --------------- sections ------------------ <br>
-┃ ┃ ┃ ┗ 📜Footer.js<br>  
+┃ ┃ ┃ ┗ 📜Footer.js<br>
 ┃ ┃ ┣ 📂LandingPage<br>
 ┃ ┃ ┃ ┗ 📜LandingPage.js 이 안에는 해당 페이지에 관련된<br>
 ┃ ┃ ┣ 📂LoginPage<br>
@@ -39,7 +39,7 @@
 - npm npx
 - React Router Dom
 - 데이터 Flow & Axios
-- Cors이슈, Proxy 설정
+- CORS 이슈, Proxy 설정
 - Redux 기초
 - React Hooks
 - 로그인 페이지
@@ -47,7 +47,7 @@
 - 로그아웃
 - 인증체크
 
-### Backend
+## Backend
 
 📦server<br>
 ┣ 📂config<br>
